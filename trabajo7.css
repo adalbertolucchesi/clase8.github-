@@ -1,0 +1,120 @@
+.contenet{   
+  
+ 
+    display: grid;
+    grid-template-columns: repeat(3,1fr);  
+   
+    grid-template-rows: auto ;
+    grid-gap: 1rem;
+    padding: 1%;
+    background-color: rgb(243, 185, 165);
+  }
+  
+      
+  .caja1  { 
+          background: blue;
+          text-align: center;
+          border: rgb(21, 146, 37) 5px solid;
+          width: 400px;
+          height: 100px
+  }
+  
+  
+  .caja2 { 
+          background: rgb(23, 161, 35);
+          text-align: center;
+          border: rgb(145, 29, 29) 5px solid;
+          width: 400px;
+          height: 100px
+  }
+  .caja3 {
+          background: rgb(245, 6, 185);
+          text-align: center;
+          border: rgb(10, 4, 4) 5px solid; 
+          width: 400px;
+          height: 100px
+  }
+  .caja4 {
+           background: rgb(91, 19, 158);
+          text-align: center;
+          border: rgb(10, 4, 4) 5px solid;
+          width: 400px;
+          height: 100px   
+  }
+  .caja5 { 
+          background: rgb(15, 198, 223);
+          text-align: center;
+          border: rgb(10, 4, 4) 5px solid;
+          width: 400px; 
+          height: 100px
+       }
+  .caja6 { 
+          background: rgb(240, 222, 61);
+          text-align: center;
+          border: rgb(10, 4, 4) 5px solid;
+          width:  400px;
+          height: 100px
+  
+  }
+  .caja7 { 
+          background: rgb(250, 134, 25);
+          text-align: center;
+          border: rgb(10, 4, 4) 5px solid;
+          width: 400px;
+          height: 100px 
+  }
+  .caja8 { 
+          background: rgb(18, 193, 247);
+          text-align: center;
+          border: rgb(10, 4, 4) 5px solid;
+          width: 400px;
+          height: 100px  
+      
+  }
+  .caja9 { 
+          background: rgb(203, 218, 7);
+          text-align: center;
+          border: rgb(10, 4, 4) 5px solid;
+          width: 400px;
+          height: 100px  
+  } 
+  
+       
+  @media (max-width:320px){
+  .contenet  {
+    background-color: aquamarine;
+      
+    grid-template-columns: 1fr; 
+    padding: 2%; 
+  }
+   .caja1 {display: none;}
+   .caja3 {display: none;}
+   .caja5 {display: none;}
+   .caja7 {display: none;}
+   .caja8 {display: none;}
+   .caja9 {display: none;} 
+  
+   .caja2 {width: 280px;}
+   .caja4 {width: 280px;}
+   .caja6 {width: 280px;}
+  } 
+  
+  
+  @media (min-width: 321px) and (max-width: 768px){ 
+  .contenet
+  { background-color: rgb(111, 192, 247);
+      
+    grid-template-columns: repeat(2,1fr);
+     
+  }
+   .caja1 {display: none;}
+   .caja3 {display: none;}
+   .caja5 {display: none;}
+  
+   .caja2 {width: 280px;}
+   .caja4 {width: 280px;}
+   .caja6 {width: 280px;}
+   .caja7 {width: 280px;}
+   .caja8 {width: 280px;}
+   .caja9 {width: 280px;}
+  }
